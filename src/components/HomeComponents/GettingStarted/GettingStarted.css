@@ -1,0 +1,357 @@
+.dev-sec p,
+.dev-sec h1,
+.dev-sec h2,
+.dev-sec h3 {
+  margin: 0;
+}
+.dev-sec.bg-color-background {
+  background-color: rgb(247 249 252);
+}
+
+.dev-sec .text-color-text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(40 48 77 / var(--tw-text-opacity));
+}
+.dev-sec .text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.dev-sec .font-Gotham-SSm-Book {
+  font-family: Gotham SSm-Book, Helvetica, sans-serif;
+}
+.dev-sec .py-6 {
+  padding-top: 5em;
+  padding-bottom: 5rem;
+}
+.dev-sec .px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.dev-sec .max-w-screen-xl {
+  max-width: 1280px;
+}
+.dev-sec .mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dev-sec .pb-4 {
+  padding-bottom: 1rem;
+}
+.dev-sec .justify-between {
+  justify-content: space-between;
+}
+.dev-sec .items-start {
+  align-items: flex-start;
+}
+.dev-sec .flex {
+  display: flex;
+}
+
+.dev-sec .font-bold {
+  font-weight: 700;
+}
+.dev-sec .text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.dev-sec .text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.dev-sec .py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.dev-sec .px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.dev-sec .bg-no-repeat {
+  background-repeat: no-repeat;
+}
+.dev-sec .bg-right {
+  background-position: 100%;
+}
+.dev-sec .bg-auto {
+  background-size: auto;
+}
+.dev-sec .bg-\[url\(\"\/web3\/images\/argus_bg_md\.webp\"\)\] {
+  background-image: url(https://www.cobo.com/web3/images/argus_bg_md.webp);
+}
+.dev-sec .bg-color-primary {
+  --tw-bg-opacity: 1;
+  background-color: #2c56df;
+}
+
+.dev-sec .w-16 {
+  width: 4rem;
+}
+.dev-sec .hidden {
+  display: none;
+}
+.dev-sec .mr-4 {
+  margin-right: 1rem;
+}
+.dev-sec img {
+  max-width: 100%;
+  height: auto;
+}
+.dev-sec .gap-2 {
+  gap: 0.5rem;
+}
+
+.dev-sec .text-color-text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(40 48 77 / var(--tw-text-opacity));
+}
+.dev-sec .text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.dev-sec .py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+.dev-sec .px-1\.5 {
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+}
+.dev-sec .bg-\[\#38F2B9\] {
+  --tw-bg-opacity: 1;
+  background-color: #23c1da;
+  color: white;
+}
+.dev-sec .ml-4 {
+  margin-left: 1rem;
+}
+.dev-sec .opacity-60 {
+  opacity: 0.6;
+}
+
+.dev-sec .leading-5 {
+  line-height: 1.25rem;
+}
+.dev-sec .text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.dev-sec .flex-wrap {
+  flex-wrap: wrap;
+}
+
+.dev-sec .p-3 {
+  padding: 0.75rem;
+}
+.dev-sec .bg-no-repeat {
+  background-repeat: no-repeat;
+}
+.dev-sec .bg-left {
+  background-position: 0;
+}
+.dev-sec .border-\[\#E9EBED\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(233 235 237 / var(--tw-border-opacity));
+}
+.dev-sec .border-r {
+  border-right-width: 1px;
+}
+.dev-sec .border-b,
+.dev-sec .border-b-\[1px\] {
+  border-bottom-width: 1px;
+}
+.dev-sec.w-1\/2 {
+  width: 50%;
+}
+
+.dev-sec .opacity-20 {
+  opacity: 0.2;
+}
+.dev-sec .text-\[\#28304D\] {
+  --tw-text-opacity: 1;
+  color: rgb(40 48 77 / var(--tw-text-opacity));
+}
+.dev-sec .text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.dev-sec .mb-4 {
+  margin-bottom: 1rem;
+}
+
+.dev-sec .font-bold {
+  font-weight: 700;
+}
+.dev-sec .text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.dev-sec .text-color-primary {
+  --tw-text-opacity: 1;
+  color: rgb(77 132 255 / var(--tw-text-opacity));
+}
+.dev-sec .font-semibold {
+  font-weight: 600;
+}
+.dev-sec .text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.dev-sec .w-4 {
+  width: 1rem;
+}
+
+.dev-sec .inline-block {
+  display: inline-block;
+}
+.dev-sec .ml-2 {
+  margin-left: 0.5rem;
+}
+
+.dev-sec .text-color-primary {
+  --tw-text-opacity: 1;
+  color: rgb(77 132 255 / var(--tw-text-opacity));
+}
+.dev-sec .font-semibold {
+  font-weight: 600;
+}
+.dev-sec .no-bgs {
+  background-color: transparent !important;
+}
+
+.dev-sec .font-semibold {
+  font-weight: 600;
+}
+.dev-sec .text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.dev-sec .bg-\[\#28304D\] {
+  --tw-bg-opacity: 1;
+  background-color: #233b77;
+}
+.dev-sec .mt-8 {
+  margin-top: 2rem;
+}
+/*  */
+
+.dev-sec .text-\[\#7E8394\] {
+  --tw-text-opacity: 1;
+  color: rgb(126 131 148 / var(--tw-text-opacity));
+}
+.dev-sec .font-medium {
+  font-weight: 500;
+}
+.dev-sec .text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.dev-sec .mt-4 {
+  margin-top: 1rem;
+}
+.dev-sec a {
+  text-decoration: none;
+}
+@media (max-width: 1000px) {
+  .dev-sec .md\:w-1\/4 {
+    width: 50% !important;
+  }
+}
+@media (max-width: 768px) {
+  .dev-sec .bg-\[\#28304D\] {
+    padding: 1rem !important;
+  }
+  .dev-sec .text-xs {
+    padding-top: 0;
+  }
+}
+@media (max-width: 370px) {
+  .dev-sec .md\:w-1\/4 {
+    width: 100% !important;
+  }
+}
+@media (min-width: 768px) {
+  .dev-sec .no-topad {
+    padding-inline: 0 !important;
+  }
+  .dev-sec .md\:hidden {
+    display: none;
+  }
+  .dev-sec .md\:text-xl {
+    font-size: 1.55rem;
+    line-height: 1.75rem;
+  }
+  .dev-sec .md\:inline-block {
+    display: inline-block;
+  }
+  .dev-sec .md\:text-\[42px\] {
+    font-size: 42px;
+  }
+  .dev-sec .md\:mt-2 {
+    margin-top: 0.5rem;
+  }
+  .dev-sec .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .dev-sec .md\:mb-14 {
+    margin-bottom: 3.5rem;
+  }
+  .dev-sec .md\:w-1\/4 {
+    width: 25%;
+  }
+  .dev-sec .md\:border-0 {
+    border-width: 0;
+  }
+  .dev-sec .md\:p-8 {
+    padding: 2rem;
+  }
+  .dev-sec .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  .dev-sec .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .dev-sec .md\:block {
+    display: block;
+  }
+  .dev-sec .md\:p-8 {
+    padding: 2rem;
+  }
+  .dev-sec .md\:bg-\[url\(\"\/web3\/images\/argus_bg\.webp\"\)\] {
+    background-image: url(https://www.cobo.com/web3/images/argus_bg.webp);
+  }
+
+  .dev-sec .md\:leading-\[40px\] {
+    line-height: 40px;
+  }
+
+  .dev-sec .md\:text-\[32px\] {
+    font-size: 32px;
+  }
+  .dev-sec .md\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+  .dev-sec .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .dev-sec .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .dev-sec .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+@media (max-width: 768px) {
+  .dev-sec .no-bgs {
+    padding-left: 0;
+  }
+}

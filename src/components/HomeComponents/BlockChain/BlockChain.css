@@ -1,0 +1,9 @@
+.relative-pos {
+  position: relative;
+}
+@media (min-width: 1200px) {
+  .no-minpad {
+    padding-inline: 0 !important;
+    padding-bottom: 20px !important;
+  }
+}

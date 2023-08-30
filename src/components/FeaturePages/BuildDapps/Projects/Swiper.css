@@ -1,0 +1,227 @@
+/* .slide-content.with-shadow {
+  box-shadow: 1px 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.with-shadow {
+  text-shadow: 1px 1px 3px rgba(13, 13, 13, 0.5);
+} */
+.slide-content {
+  position: relative;
+}
+.carousel-slider .swiper-slide img {
+  display: block;
+}
+
+.slider-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.lens-15 {
+  /* background-color: rgba(0, 0, 0, 0.15); */
+  border-radius: 10px;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+.powered-content {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 46px 60px 60px;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+.powerered-category {
+  z-index: 2;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  position: static;
+  top: 46px;
+  left: 0%;
+  right: 0%;
+  font-weight: bold;
+}
+.powered-logo-wrapper {
+  width: 300px;
+}
+.powered-logo {
+  z-index: 2;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: fill;
+  display: block;
+  position: static;
+  top: 25%;
+}
+
+.sw-btn.btn-line-white {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sw-btn {
+  min-width: 140px;
+  text-align: center;
+  background-color: #0d0d0d;
+  border: 0 #0d0d0d;
+  border-radius: 48px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 12px 24px;
+  font-weight: 500;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .powered-content {
+    padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .powered-logo-wrapper {
+    width: 200px;
+  }
+}
+/*  */
+
+.project-sw .swiper_container {
+  height: 47.5rem;
+  /*padding: 2rem 0;*/
+  position: relative;
+}
+.project-sw {
+  margin-bottom: 50px;
+}
+.project-sw .Usecases_section__idiY6 {
+  padding-bottom: 10px;
+}
+.project-sw .swiper-slide {
+  width: 37rem;
+  height: 42rem;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  .project-sw .swiper_container {
+    height: 33.5rem;
+  }
+  /* .project-sw .swiper-slide {
+    width: 28rem !important;
+    height: 36rem !important;
+  } */
+  .project-sw .swiper-slide img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+.project-sw .swiper-slide img {
+  width: 37rem;
+  height: 42rem;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.project-sw .swiper-slide-shadow-left,
+.project-sw .swiper-slide-shadow-right {
+  display: none;
+}
+
+.project-sw .slider-controler {
+  position: relative;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-sw .slider-controler .swiper-button-next {
+  left: 58% !important;
+  transform: translateX(-58%) !important;
+}
+
+@media (max-width: 990px) {
+  .project-sw .slider-controler .swiper-button-next {
+    left: 70% !important;
+    transform: translateX(-70%) !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .project-sw .slider-controler .swiper-button-next {
+    left: 80% !important;
+    transform: translateX(-80%) !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .project-sw .slider-controler .swiper-button-prev {
+    left: 30% !important;
+    transform: translateX(-30%) !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .project-sw .slider-controler .swiper-button-prev {
+    left: 20% !important;
+    transform: translateX(-20%) !important;
+  }
+}
+
+.project-sw .slider-controler .slider-arrow {
+  background: var(--white);
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  left: 42%;
+  transform: translateX(-42%);
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.project-sw .slider-controler .slider-arrow ion-icon {
+  font-size: 2rem;
+  color: #222224;
+}
+
+.project-sw .slider-controler .slider-arrow::after {
+  content: "";
+}
+
+.project-sw .swiper-pagination {
+  position: relative;
+  bottom: 1rem;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #1E88E5 !important;
+
+  transition: background 0.4s ease-in;
+
+  height: 12px !important;
+}
+.swiper-pagination-bullet {
+  background: #bababa !important;
+  border-radius: 100px;
+  height: 12px !important;
+  opacity: 1;
+  width: 12px !important;
+}
+
+.project-sw .swiper-pagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.project-sw .swiper-pagination .swiper-pagination-bullet-active {
+  background: var(--primary);
+}

@@ -1,0 +1,37 @@
+.opacity-sub {
+  opacity: 0.75;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.benefits-text {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  opacity: 0.75;
+  color: #414142;
+  font-size: 17px;
+}
+
+.jss339 {
+  padding-bottom: 20px;
+}
+
+.jss487 {
+  padding-top: 120px;
+}
+
+.benefits-section {
+  background: linear-gradient(0deg, rgba(242, 245, 250, 0) 0%, #ffffff 100%),
+    linear-gradient(270deg, #eaf4fc 0%, #eaf4fc 50%, #d1e6fa 100%, #ffffff 100%) !important;
+}
+
+@media (max-width: 750px) {
+  .benefits-text {
+    max-width: 100%;
+  }
+  .jss493 {
+    padding: 18px;
+  }
+}

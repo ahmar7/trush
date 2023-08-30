@@ -1,0 +1,28 @@
+.m5 {
+  margin-top: 70px;
+}
+
+@media (max-width: 1024px) {
+  .main-building__content .main__title.center-mb {
+    text-align: center !important;
+  }
+  .jus-mb {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+@media (max-width: 768px) {
+  .mbl-fer {
+    font-size: 38px !important;
+  }
+}
+@media (min-width: 700px) {
+  .main-building .wrapper {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 600px) {
+  .mbl-fer {
+    font-size: 34px !important;
+  }
+}

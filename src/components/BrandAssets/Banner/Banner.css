@@ -1,0 +1,90 @@
+.main-brand {
+  color: #23c1da !important;
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  opacity: 1;
+  transform: translateY(0);
+
+  transform: translateY(10px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+.banner-max {
+  max-width: 900px;
+  margin-bottom: 60px;
+  margin-inline: auto;
+}
+
+@media (max-width: 1279.95px) {
+  .MuiTypography-h2-242 {
+    font-size: 36px;
+  }
+}
+.MuiTypography-h2-242 {
+  color: #1f2226;
+  font-size: 48px;
+  font-family: "TT-Firs-Neue-Demi-Bold", sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+.inner-banner {
+  height: 440px;
+  display: flex;
+  padding: 116px 0px !important;
+  max-width: 1620px;
+  background: linear-gradient(
+    90.64deg,
+    #1c262f 0,
+    #3060df 22.92%,
+    #181e27 41.67%,
+    #1c2b31 57.81%,
+    #3060df 69.79%,
+    #0e161c 80.73%,
+    #131920 100%
+  ) !important;
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 30px;
+  flex-direction: column;
+}
+@media (max-width: 959.95px) {
+  .inner-banner {
+    background-image: url(https://www.ankr.com/_next/static/images/guide2-dafa4acc6f053bbe52d341060f4f5f58.png);
+  }
+}
+@media (max-width: 767.95px) {
+  .inner-banner {
+    padding: 43px 0px !important;
+    background-image: url(https://www.ankr.com/_next/static/images/guide2-dafa4acc6f053bbe52d341060f4f5f58.png);
+  }
+}
+.branBanner {
+  padding: 208px 24px 120px 24px;
+  overflow: hidden;
+}
+@media (max-width: 959.95px) {
+  .branBanner {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+  .banner-max {
+    max-width: 510px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 767.95px) {
+  .branBanner {
+    padding-top: 135px;
+    padding-bottom: 90px;
+  }
+  .banner-max {
+    margin-bottom: -21px;
+  }
+}

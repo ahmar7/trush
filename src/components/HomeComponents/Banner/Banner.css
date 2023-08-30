@@ -1,0 +1,12 @@
+/*.jss170 {
+	background-image: linear-gradient(270deg, #7941FF 0%, #3060DF 100%);
+}*/
+
+.njss175:hover {
+  color: white;
+}
+@media (max-width: 1024px) {
+  .rm-mbl {
+    margin-right: 0 !important;
+  }
+}

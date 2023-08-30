@@ -1,0 +1,438 @@
+.btn-token {
+  width: 155px !important;
+}
+
+.tjss297 {
+  margin-bottom: 120px;
+}
+@media (max-width: 767.95px) {
+  .tjss297 {
+    margin-bottom: 80px;
+  }
+}
+.tjss298 {
+  margin-bottom: 58px;
+}
+@media (min-width: 960px) {
+  .tjss298 {
+    grid-column: 2 span;
+  }
+}
+.tjss299 {
+  gap: 28px;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .tjss299 {
+    flex-direction: row;
+  }
+}
+@media (max-width: 959.95px) {
+  .tjss300 {
+    gap: 0 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+}
+.tjss301 {
+  margin-bottom: 20px;
+}
+@media (max-width: 959.95px) {
+  .tjss301 {
+    grid-row: 2 span;
+  }
+}
+.tjss302 {
+  color: #82899a;
+  font-size: 17px;
+  line-height: 24px;
+}
+/*  */
+
+.main-tkn-wrapper .Tokens-wrap {
+  padding: 100px 0;
+  /*background-image: url(https://just.network/_nuxt/img/token-bg2.2c0b763.png);*/
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 500px;
+}
+
+.main-tkn-wrapper .Tokens-wrap h2 {
+  margin-bottom: 50px;
+  font-family: AvenirNext-Bold;
+  color: #141515;
+}
+
+.main-tkn-wrapper h2.title {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  font-family: AvenirNext-Bold;
+  color: #141515;
+}
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item {
+  padding: 40px 0 0;
+  background: linear-gradient(270deg, #fbfffd 0%, #e1f5ff 100%);
+  box-shadow: 0 2px 43px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  margin-bottom: 50px;
+}
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div > div:first-child {
+  border-right: 1px solid #000;
+}
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .desc {
+  flex: 1;
+}
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div > div {
+  padding: 0 50px;
+}
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div {
+  display: flex;
+}
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .desc h3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-family: AvenirNext-DemiBold;
+  font-size: 34px;
+  color: #3060DF;
+}
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .desc h3 > div {
+  position: relative;
+}
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .desc h3 > div img {
+  margin-left: 10px;
+  width: 28px;
+  height: 24px;
+}
+/*  */
+
+.main-tkn-wrapper
+  .Tokens-wrap
+  .Tokens-content
+  .item
+  > div
+  .desc
+  h3
+  > div
+  > div {
+  display: none;
+  position: absolute;
+  left: 24px;
+  top: -28px;
+  transform: translate(-50%, 0);
+  padding: 4px 10px;
+  background: rgba(97, 36, 193, 0.11);
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6124c1;
+  white-space: nowrap;
+}
+
+.main-tkn-wrapper
+  .Tokens-wrap
+  .Tokens-content
+  .item
+  > div
+  .desc
+  h3
+  > div
+  > div
+  i {
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: rgba(97, 36, 193, 0.11) transparent transparent transparent;
+}
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .desc p {
+  margin: 18px 0 36px;
+  font-family: AvenirNext-Medium;
+  font-size: 16px;
+  color: #000;
+}
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .desc a {
+  display: inline-block;
+  padding: 13px 30px;
+  background: #6124c1;
+  box-shadow: 0 10px 30px 0 rgba(56, 42, 178, 0.2);
+  border-radius: 8px;
+  font-family: AvenirNext-Medium;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  transition: all 0.5s;
+}
+/*  */
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .info {
+  flex: 1.2;
+  padding-top: 15px;
+  display: flex;
+}
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div > div {
+  padding: 0 50px;
+}
+
+.main-tkn-wrapper
+  .Tokens-wrap
+  .Tokens-content
+  .item
+  > div
+  .info
+  .p1:first-child {
+  margin-right: 50px;
+}
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .info .p1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+}
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .info .p1 > div {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.main-tkn-wrapper
+  .Tokens-wrap
+  .Tokens-content
+  .item
+  > div
+  .info
+  .p1
+  > div
+  span {
+  margin: 20px 0 10px;
+  font-family: AvenirNext-DemiBold;
+  font-size: 20px;
+  color: #141515;
+}
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .info .p1 p {
+  font-family: AvenirNext-Regular;
+  font-size: 14px;
+  color: #666666;
+}
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div > a {
+  display: none;
+}
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item .token-gov-coin-wrap {
+  /*background: url(https://just.network/_nuxt/img/Dominica-left.6a40a44.png)
+    no-repeat;*/
+  background-position: left bottom;
+  background-size: contain;
+  padding: 28px 37px;
+  overflow: hidden;
+  border-radius: 0 0 0 16px;
+}
+
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div {
+  display: flex;
+}
+.p1 img {
+  width: auto !important;
+}
+.main-tkn-wrapper .Tokens-wrap .Tokens-content .item:last-child {
+  padding: 40px 0;
+  margin-bottom: 0;
+}
+.main-tkn-wrapper a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  .main-tkn-wrapper .Tokens-wrap .Tokens-content .item .token-gov-coin-wrap {
+    background: none;
+    background-position: left bottom;
+    background-size: contain;
+    padding: 15px 0 0;
+    overflow: hidden;
+    border-radius: 0;
+  }
+  .main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div > a {
+    display: block;
+    padding: 15px 30px;
+    background: #6124c1;
+    box-shadow: 0 10px 30px 0 rgba(56, 42, 178, 0.2);
+    border-radius: 8px;
+    font-family: AvenirNext-Medium;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all 0.5s;
+    text-align: center;
+  }
+
+  .main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .info .p1 p {
+    padding-bottom: 20px;
+    padding-top: 13px;
+    font-size: 14px;
+  }
+
+  .main-tkn-wrapper
+    .Tokens-wrap
+    .Tokens-content
+    .item
+    > div
+    .info
+    .p1
+    > div
+    span {
+    margin-left: 0;
+    font-size: 16px;
+  }
+  .main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .info .p1 {
+    justify-content: flex-start;
+  }
+  .main-tkn-wrapper
+    .Tokens-wrap
+    .Tokens-content
+    .item
+    > div
+    .info
+    .p1:first-child {
+    margin-right: 20px;
+  }
+
+  .main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div > div {
+    padding: 0 10px;
+    flex: 1;
+  }
+  .main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .info {
+    padding-top: 30px;
+  }
+  .main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .desc a {
+    display: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+  }
+  .main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .desc p {
+    margin: 20px 0;
+    font-size: 14px;
+  }
+
+  .main-tkn-wrapper
+    .Tokens-wrap
+    .Tokens-content
+    .item
+    > div
+    .desc
+    h3
+    > div
+    > div
+    i {
+    position: absolute;
+    bottom: 50%;
+    left: -10px;
+    transform: translate(0, 50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: transparent rgba(97, 36, 193, 0.11) transparent transparent;
+  }
+
+  .main-tkn-wrapper
+    .Tokens-wrap
+    .Tokens-content
+    .item
+    > div
+    .desc
+    h3
+    > div
+    > div {
+    display: block;
+    position: absolute;
+    left: 50px;
+    top: 0;
+    transform: translate(0, 0);
+    padding: 4px 10px;
+    background: rgba(97, 36, 193, 0.11);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #6124c1;
+    white-space: nowrap;
+  }
+
+  .main-tkn-wrapper
+    .Tokens-wrap
+    .Tokens-content
+    .item
+    > div
+    .desc
+    h3
+    > div
+    img {
+    margin-left: 10px;
+    width: 28px;
+    height: 24px;
+  }
+  .main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .desc h3 > div {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div .desc h3 {
+    height: 24px;
+    line-height: 24px;
+    font-size: 24px;
+  }
+  .main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div > div:first-child {
+    border-right: 0;
+  }
+  .main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div > div {
+    padding: 0 10px;
+    flex: 1;
+  }
+  .main-tkn-wrapper .Tokens-wrap .Tokens-content .item > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-tkn-wrapper .Tokens-wrap .Tokens-content .item {
+    padding: 30px 15px;
+    margin-bottom: 20px;
+  }
+  .main-tkn-wrapper .Tokens-wrap h2 {
+    margin-bottom: 20px;
+  }
+
+  .main-tkn-wrapper h2.title {
+    font-size: 26px;
+  }
+  .main-tkn-wrapper .Tokens-wrap {
+    padding: 40px 0px;
+    background-position: 200px bottom, -50px 200px;
+    background-size: 300px, 200px;
+  }
+}

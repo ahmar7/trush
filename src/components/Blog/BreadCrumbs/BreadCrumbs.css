@@ -1,0 +1,90 @@
+.main-breadcrumbs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 28px 0 15px;
+}
+
+.breadcrumb,
+.main-breadcrumbs .wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0 !important;
+  align-items: center;
+  margin: 0;
+}
+.main-breadcrumbs a {
+  text-decoration: none;
+}
+.breadcrumb-item {
+  display: inline-flex;
+}
+/*  */
+.breadcrumb-item span {
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+.breadcrumb-item a {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  height: 20px;
+}
+.breadcrumb-item a,
+.breadcrumb-item.active span {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--font-color);
+  white-space: nowrap;
+}
+/*  */
+@media screen and (max-width: 1308px) {
+  .wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .main-breadcrumbs {
+    margin: 15px 0 30px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .breadcrumb-item:first-child a::before {
+    width: 20px;
+    height: 20px;
+    content: url("data:image/svg+xml, %3Csvg class='main-breadcrumbs__house' width='20' height='20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16.25 17.187H12.5a.937.937 0 01-.938-.937V12.5a.312.312 0 00-.312-.313h-2.5a.313.313 0 00-.313.313v3.75a.938.938 0 01-.937.937H3.75a.927.927 0 01-.664-.273.961.961 0 01-.273-.664V9.023a.922.922 0 01.304-.687l6.25-5.688a.938.938 0 011.266 0l6.25 5.688a.921.921 0 01.305.687v7.227a.938.938 0 01-.938.937zm-7.5-5.625h2.5a.938.938 0 01.938.938v3.75a.313.313 0 00.312.312h3.75a.32.32 0 00.313-.312V9.023a.305.305 0 00-.102-.226l-6.25-5.688a.32.32 0 00-.422 0L3.54 8.797a.305.305 0 00-.102.226v7.227a.32.32 0 00.313.312H7.5a.312.312 0 00.313-.312V12.5a.938.938 0 01.937-.938z' fill='%23000'/%3E%3C/svg%3E");
+    filter: invert(16%) sepia(99%) saturate(3980%) hue-rotate(224deg)
+      brightness(74%) contrast(107%);
+  }
+  .breadcrumb-item:first-child span {
+    display: none;
+  }
+
+  .breadcrumb-item a::after {
+    content: url(../../../assets/img/next-arr.svg);
+    margin: 0 8px;
+    display: inline-flex;
+  }
+  .breadcrumb-item a {
+    color: #0037c1;
+  }
+
+  .main-breadcrumbs .wrapper {
+    padding: 0 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .main-breadcrumbs {
+    margin: 0;
+    margin-bottom: 20px !important;
+    padding: 10px 0;
+    border-top: 1px solid var(--form-input-border);
+    border-bottom: 1px solid var(--form-input-border);
+    position: relative;
+  }
+}

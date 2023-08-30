@@ -1,0 +1,139 @@
+.pjss164 {
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(53, 109, 243, 0.1) 0%, #ffffff 100%),
+    linear-gradient(
+      270deg,
+      rgba(53, 109, 243, 0.5) 0%,
+      rgba(242, 245, 250, 0.7) 50%,
+      rgba(53, 109, 243, 0.5) 100%
+    );
+  padding-top: 140px;
+}
+@media (max-width: 959.95px) {
+  .pjss164 {
+    padding-top: 30px;
+  }
+}
+.pjss165 {
+  display: flex;
+}
+@media (max-width: 959.95px) {
+  .pjss165 {
+    flex-direction: column;
+  }
+}
+.pjss166 {
+  display: flex;
+  margin-bottom: 110px;
+  flex-direction: column;
+}
+@media (min-width: 960px) {
+  .pjss166 {
+    max-width: 500px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 959.95px) {
+  .pjss166 {
+    text-align: center;
+    margin-bottom: 46px;
+  }
+}
+.pjss167 {
+  color: #3060df;
+  font-size: 17px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 8px;
+  font-feature-settings: "ss01" on, "ss02" on, "calt" off;
+}
+.pjss168 {
+  color: #1f2226;
+  font-size: 50px;
+  /*font-family: TT Firs Neue;*/
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 8px;
+  font-feature-settings: "ss01" on;
+}
+@media (max-width: 959.95px) {
+  .pjss168 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+}
+.pjss169 {
+  color: #2e343c;
+  font-size: 17px;
+  font-family: Inter;
+  line-height: 24px;
+  margin-bottom: 28px;
+}
+.pjss170.pjss170 {
+  color: #ffffff;
+  width: 126px;
+  border: none;
+  height: 48px;
+  display: flex;
+  outline: none;
+  padding: 0;
+  z-index: 100;
+  font-size: 16px;
+  max-width: 225px;
+  align-self: start;
+  background: #356df3;
+  align-items: center;
+  font-family: Inter;
+  font-weight: 600;
+  border-radius: 16px;
+  justify-content: center;
+  text-decoration: none;
+}
+
+@media (max-width: 959.95px) {
+  .pjss170.pjss170 {
+    align-self: center;
+  }
+}
+.pjss185 {
+  padding-bottom: 114px;
+}
+@media (max-width: 959.95px) {
+  .pjss185 {
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 1025px) {
+  .banner-network .pjss166 {
+    max-width: 52%;
+  }
+  .banner-network {
+    justify-content: space-between;
+    margin-bottom: 0px;
+  }
+  .banner-network .d3-img {
+    width: 35%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner-network {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  .banner-network .pjss166 {
+    align-items: center;
+    max-width: 100%;
+  }
+  .banner-network .d3-img {
+    width: 80%;
+  }
+}
+@media (max-width: 576px) {
+  .banner-network .d3-img {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,41 @@
+.main-nft {
+  margin-top: 140px;
+}
+.low-comp .main-nft {
+  margin-top: 80px;
+}
+
+@media (max-width: 1240px) {
+  .main-nft {
+    margin: 15px 0 83px;
+  }
+  .low-comp .main-nft {
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+}
+.npower .wrapper {
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1308px) {
+  .npower .wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.c-bKDcxk {
+  margin-top: 0 !important;
+}
+.npower .wrapper {
+  max-width: 1308px;
+  margin: 0 auto;
+  padding: 0 14px;
+}
+.npower .wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

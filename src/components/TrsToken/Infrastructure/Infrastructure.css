@@ -1,0 +1,119 @@
+.zojlX {
+  font-size: 36px;
+  color: rgb(45, 46, 45);
+  line-height: 42px;
+  letter-spacing: 2.16px;
+  margin: 0px 0px 20px;
+  text-align: center;
+}
+.cxavqQ {
+  width: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.HTSgv {
+  font-size: 18px;
+  color: rgb(77, 132, 255);
+  line-height: 21px;
+  letter-spacing: 1.08px;
+  text-decoration: none;
+}
+
+.HTSgv:hover {
+  color: #3060df;
+}
+
+.gdrsPu {
+  padding: 62px 0px 50px 0;
+}
+.kSmtnC {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.iZXOgY {
+  width: 47%;
+  /*height: 244px;*/
+  height: 300px;
+  border-bottom: 3px solid #3060df;
+  background: linear-gradient(0deg, rgba(242, 245, 250, 0) 0%, #f2f5fa 100%),
+    linear-gradient(270deg, #c9e2f5 0%, #eaf4fc 50%, #ffffff 100%, #ffffff 100%);
+  box-shadow: rgba(77, 132, 255, 0.08) 0px 0px 20px 1px;
+  padding: 32px;
+  text-align: left;
+  margin-bottom: 46px;
+}
+.cWcKzw {
+  display: inline-block;
+  font-size: 20px;
+  color: rgb(45, 46, 45);
+  line-height: 23px;
+  letter-spacing: 1.2px;
+  margin: 0px 0px 0px 20px;
+  vertical-align: super;
+}
+.knlqDC {
+  display: flex;
+  align-items: flex-start;
+  margin: 32px 0px 0px;
+}
+.ecaZnK {
+  font-size: 14px;
+  color: rgb(45, 46, 45);
+  line-height: 16px;
+  letter-spacing: 0.84px;
+  text-align: left;
+  padding: 0px 0px 0px 16px;
+}
+.iZXOgY:hover {
+  background: rgb(237, 243, 255);
+}
+.next-arow {
+  width: 22px;
+}
+.small-tomis {
+  width: 48px;
+}
+.check-16 {
+  width: 16px;
+}
+.bHUlaY {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.bHUlaY a {
+  text-decoration: none !important;
+}
+@media (max-width: 1200px) {
+  .cWcKzw {
+    font-size: 16px;
+  }
+  .ecaZnK {
+    font-size: 13px;
+  }
+}
+@media (max-width: 992px) {
+  .iZXOgY {
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .iZXOgY {
+    height: auto;
+  }
+}
+@media (max-width: 550px) {
+  .zojlX {
+    font-size: 25px;
+  }
+  .cxavqQ img {
+    display: none;
+  }
+}
