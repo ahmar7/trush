@@ -353,6 +353,9 @@
 }
 
 @media (max-width: 768px) {
+  .use-cases-header {
+    transform: none;
+  }
   .Usecases_section__idiY6#slider {
     padding-top: 0 !important;
   }
