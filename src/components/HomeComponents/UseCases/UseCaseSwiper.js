@@ -46,7 +46,10 @@ const UseCaseSwiper = () => {
         </a>
         */}
         <div className="Usecases_headTitle__bkrB-">
-          <div className="" style={{ opacity: 1 }}>
+          <div
+            className="Typography_line-height-120__+PGc9 Usecases_title__UBpIL jss170 use-cases-header"
+            style={{ opacity: 1 }}
+          >
             Solutions to Drive Innovation
           </div>
         </div>
