@@ -47,7 +47,7 @@ const UseCaseSwiper = () => {
         */}
         <div className="Usecases_headTitle__bkrB-">
           <div
-            className="Typography_font-size-xl__X+CRm mbl-fer Typography_color-white__0vcsJ Typography_weight-700__3PDWn Typography_line-height-120__+PGc9"
+            className="Typography_font-size-xl__X+CRm mbl-fer Typography_color-white__0vcsJ Typography_weight-700__3PDWn Typography_line-height-120__+PGc9 Usecases_title__UBpIL jss170 "
             style={{ opacity: 1 }}
           >
             Solutions to Drive Innovation
